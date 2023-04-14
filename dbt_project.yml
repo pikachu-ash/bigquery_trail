@@ -37,3 +37,6 @@ models:
     bigquery_free:
       +materialized: view
       +schema:  bigquery_free
+    landing_model:
+      +materialized: table
+      +schema:  landing_model
